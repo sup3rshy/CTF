@@ -1,7 +1,14 @@
 Đầu tiên ta check hàm main 
 
 ![image](https://github.com/user-attachments/assets/cb39da15-7f40-408f-b618-a8bcdf0e6af1)
+
 Tiếp đến là hàm check 
 
-![image](https://github.com/user-attachments/assets/9856982c-c345-4545-bb09-6907d63e4896)
+![image](https://github.com/user-attachments/assets/04cab5be-8655-4f9a-b0db-6d1ec319dc52)
+
+
+Ta thấy được thông tin là (strlen(arr) + 1) % 8 == 0, và ta làm abcxyz gì đấy với mảng arr, rồi so sánh với 25 bytes của src. Mục đích cuối cùng của ta là 2 mảng này có các bytes đều bằng nhau. Ta đi check tiếp hàm do_sth 
+
+![image](https://github.com/user-attachments/assets/8a1cb85b-e706-44d2-91a8-3e815e13b9fe)
+
 
