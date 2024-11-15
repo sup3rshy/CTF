@@ -1,0 +1,1 @@
+- Sau khi đọc kĩ doc thì mình thấy: với CBC thì IV chỉ chứa 16 bytes, còn key thì đa dạng hơn.
