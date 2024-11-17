@@ -1,1 +1,2 @@
 - Sau khi đọc kĩ doc thì mình thấy: với CBC thì IV chỉ chứa 16 bytes, còn key thì đa dạng hơn.
+- Đây là script các bài mình không làm được trong giải (lúc bắt đầu làm thì mình sắp đi ngủ rồi nên chỉ làm được 2 bài :v :v xong đi ngủ)
