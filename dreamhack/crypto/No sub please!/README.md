@@ -4,5 +4,6 @@ Ngồi test một chút thì AES without sub bytes nó có những tính chất 
 
 Đề bài nó cho mình sẵn enc(secret), nhưng nó không cho mình decrypt(secret). 
 Với tính chất trên thì mình sẽ tính dec(secret) gián tiếp, cho tmp là 16 bytes bất kì.
-dec[enc(secret) ^ enc(tmp)] ^ dec[0] = dec[enc(secret)] ^ dec[enc(tmp)] 
+Vậy thì ta có:
+- dec[enc(secret) ^ enc(tmp)] ^ dec[0] = dec[enc(secret)] ^ dec[enc(tmp)] 
 Tính ba cái trên, rồi là có secret rồi :D 
