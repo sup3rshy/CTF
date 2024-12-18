@@ -15,6 +15,7 @@ for i in range(len(txt)):
         arr.append((x >> 16) & 0xff)
 
 print(bytes(arr))
+# rewind(stream)
 while arr[-1] != ord('}'):
     for i in range(len(txt)):
         x = txt[i].split(':')
