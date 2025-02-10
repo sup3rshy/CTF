@@ -1,0 +1,16 @@
+❯ gdb a.art
+pwndbg> start
+pwndbg> r
+Starting program: /home/m1zuguchi/currentCTF/a.art
+What is the name of the character hiding in this binary (lowercase with underscores if needed): ^C
+pwndbg> vmmap
+LEGEND: STACK | HEAP | CODE | DATA | WX | RODATA
+             Start                End Perm     Size Offset File
+          0x400000           0x401000 r--p     1000      0 /home/m1zuguchi/currentCTF/a.art
+          0x401000           0x442000 r-xp    41000   1000 /home/m1zuguchi/currentCTF/a.art
+          0x442000          0x4443000 rw-p  4001000  42000 /home/m1zuguchi/currentCTF/a.art
+    0x7ffff7ff9000     0x7ffff7ffd000 r--p     4000      0 [vvar]
+    0x7ffff7ffd000     0x7ffff7fff000 r-xp     2000      0 [vdso]
+    0x7ffffffdd000     0x7ffffffff000 rw-p    22000      0 [stack]
+pwndbg> dump memory pie.dmp 0x442000 0x4443000
+# BITSCTF{1_l0v3_0bfu5c4t1ng_thi1ng5_r4nd0mly_0e54826a}
