@@ -26,3 +26,4 @@ for i in range(624):
 
 p.sendlineafter(b'> ', str(generate_password(625)))
 p.interactive()
+# BITSCTF{V4u1t_cr4ck1ng_w45_345y_0384934}
